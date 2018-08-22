@@ -1,72 +1,65 @@
-# Why Functional Programming Rocks
+# If You Can
 
 Baby J
 
 ---
 
-### Higher Order Functions
+### The Strategy
 
-```javascript
-// 1 + 2 + 3
-let sum = 0;
-const nums = [1, 2, 3];
-for (let i = 0; i < nums.length; i++) {
-  sum = sum + nums[i];
-}
+Save 15% of your salary in a 401(k) plan, an IRA, or a taxable account (or all three)
 
-// Another loop - "abc"
-let res = '';
-const strs = ['a', 'b', 'c'];
-for (let i = 0; i < strs.length; i++) {
-  res = res + strs[i];
-}
-```
+- A US total stock market index fund
+- An international total stock market index fund
+- A US total bond market index fund
 
-```javascript
-const sum = [1, 2, 3].reduce((a, b) => (a + b), 0) // > 6
-const res = ["a", "b", "c"].reduce((a, b) => a + b, "") // > "abc"
-```
+Once a year, adjust their amounts so they are equal
 
 ---
 
-### Immutability
+### But You're Still Screwed
 
-- Mutation Mistakes
-- Concurrent Code
-
----
-
-### Pure Functions
-
-- Always Same Output For a Given Input
-- Easier Testing and Debugging
+- IF
 
 ---
 
-### Lazy Evaluation
+### Hurdle Number 1 - People spend too much money
 
-- Efficient
-- Infinite Lists
-
-```
-quickSort [] = []
-quickSort (x:xs) = quickSort (filter (< x) xs) ++ [x] ++ quickSort (filter (>= x) xs)
-
-minimum ls = head (quickSort ls)
-```
+- Get Out of Debt
+- Inverse Correlation Between Spending and Saving
+- The Millionaire Next Door
 
 ---
 
-### Why FP?
+### Hurdle Number 2 - Understanding Finance
 
-- Easier Reasoning
-- Easier Testing and Debugging
-- Easier Parallel Programming
+- Stocks vs Bonds
+- Risk and Returns
+- Investing Skill
+
+---
+
+### Hurdle Number 3 - Financial and Market History
+
+- High risk and high returns
+- Market highs and market bottoms
+- Don't time the market
+
+---
+
+### Hurdle Number 4 - Your Biggest Enemy
+
+- The Face in the Mirror
+- Long term planning
+
+---
+
+### Hurdle Number 5 - Recognize the Monsters
+
+- Financial industry
+- Two masters
 
 ---
 
 ### References
 
-![Benefits of Functional Programming](https://alvinalexander.com/scala/fp-book/benefits-of-functional-programming)
-![Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
-![Why Functional Programming From A Developer Productivity Perspective](https://medium.com/@xiaoyunyang/why-functional-programming-from-a-developer-productivity-perspective-69c4b8100776)
+If You Can - William Bernstein
