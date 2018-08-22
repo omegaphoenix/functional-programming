@@ -50,12 +50,14 @@ Once a year, adjust their amounts so they are equal
 
 - The Face in the Mirror
 - Long term planning
+- Pattern Seeking Primates
 
 ---
 
 ### Hurdle Number 5 - Recognize the Monsters
 
-- Financial industry
+- Financial Industry - Transfer of Wealth
+- Avoiding brokers
 - Two masters
 
 ---
